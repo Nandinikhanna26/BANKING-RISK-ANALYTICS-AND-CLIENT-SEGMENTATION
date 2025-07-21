@@ -28,41 +28,42 @@ To conduct in-depth exploratory analysis and calculate custom risk metrics that 
 
 ---
 
-## 2. Power BI Dashboards
+## Dashboard 1: Loan Analysis
 
-### Dashboard 1: Client Risk Profiling
+### Purpose:
+To assess loan portfolio composition across client segments and banking divisions.
 
-**Purpose:**  
-To visualize and identify the most financially risky clients and demographic segments contributing to elevated credit exposure.
-
-**Key Business Insight:**  
-- Majority of high-risk clients fell under **loyalty level 0** and **age group 25–35**
-- Professions such as **Engineer** and **Doctor** appeared frequently among high-risk profiles, suggesting sectors with higher credit leverage
-- Allows risk teams to focus surveillance efforts on targeted segments
-
----
-
-### Dashboard 2: Loan and Deposit Distribution by Income
-
-**Purpose:**  
-To guide product strategy and pricing by understanding income group behavior across credit and savings products.
-
-**Key Business Insight:**  
-- **Mid-income bracket** contributed most significantly to both loans and deposits
-- **High-income clients** had **lower loan participation**, highlighting potential for high-end lending products
-- Confirms where to focus cross-selling of credit and investment offerings
+### Key Insights:
+- **Private Banking clients** accounted for **45% of total loan volume (~₹1.93B)**, highlighting its strategic importance
+- **Business lending** dominates at ₹2.53B vs. ₹1.75B in bank loans — showing heavier institutional focus
+- **Mid-income customers** held **53.95% of loan value**, confirming them as a key target segment for credit products
+- **Top professions with high loan amounts** included Account Coordinators, Structural Analysts, and Database Admins
 
 ---
 
-### Dashboard 3: Banking Division Performance
+## Dashboard 2: Deposit Analysis
 
-**Purpose:**  
-To analyze performance across Retail, Private, and Commercial banking channels in terms of asset and liability generation.
+### Purpose:
+To evaluate savings and checking behavior, and identify customer groups contributing most to liquidity.
 
-**Key Business Insight:**  
-- **Private Banking** accounted for the **highest share of loan value (~₹1.93B, 45%)**
-- **Commercial Banking** held **~45% of deposits (~₹1.69B)**, indicating a strong source of low-cost funds
-- Retail division performed steadily across both but with smaller volumes—suggesting room for targeted growth
+### Key Insights:
+- Total deposits stood at **₹3.78B**, with **₹2.05B** from direct bank deposits, and remaining from checking/saving accounts
+- **Commercial Banking** drives **44.88% of total deposits**, underscoring its role in maintaining liquidity
+- **Mid-income clients** are again the largest contributors (55.71%) to deposits — ideal for bundled product marketing
+- Professions like Structural Analyst, Social Worker, and Office Admin III led deposit volume, aiding targeting efforts
+
+---
+
+## Dashboard 3: Risk Analysis Summary
+
+### Purpose:
+To unify loan, deposit, and demographic risk signals into a single executive view.
+
+### Key Insights:
+- Top 5 high-risk clients were flagged using a composite risk ratio metric — one with a loan of ₹13.6M had only ₹267K in deposits
+- **Clients with Silver loyalty tier and early year-of-joining had consistently high risk ratios**
+- Risk distribution by nationality showed **Asian clients had the highest risk weighting and deposit volume correlation**
+- Majority of clients had **risk weighting of 2**, but **27% were in level 3 or above**, suggesting significant monitoring opportunity
 
 ---
 

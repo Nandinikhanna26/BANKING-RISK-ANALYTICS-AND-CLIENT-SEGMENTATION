@@ -10,7 +10,7 @@ To support risk management teams in identifying customer risk profiles and behav
 
 ---
 
-## 1. Python Notebook: risk_analysis.ipynb
+## 1. Python Notebook: [risk_analysis.ipynb](https://github.com/Nandinikhanna26/BANKING-RISK-ANALYTICS-AND-CLIENT-SEGMENTATION/blob/main/risk%20analysis.ipynb)
 
 ### Business Purpose:
 To conduct in-depth exploratory analysis and calculate custom risk metrics that inform the bank’s credit strategy.
